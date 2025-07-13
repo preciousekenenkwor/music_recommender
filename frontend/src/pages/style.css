@@ -1,0 +1,59 @@
+.title {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.artist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.artist-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.artist-card:hover {
+  transform: scale(1.05);
+  background: #ffe0f0;
+}
+
+.artist-image {
+  height: 100px;
+  background-size: cover;
+  margin-bottom: 0.5rem;
+}
+
+.anime-bg {
+  background-image: url('https://wallpapercave.com/wp/wp4021889.jpg');
+  background-position: center;
+}
+
+.detail-page {
+  padding: 2rem;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.artist-chip {
+  display: inline-block;
+  background: #ffc0cb;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  margin: 0.25rem;
+}
